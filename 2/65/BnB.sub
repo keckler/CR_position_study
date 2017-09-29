@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#SBATCH --job-name=lay2_n
+#SBATCH --job-name=lay2_65
 
 #SBATCH --output=BnB.o
 
