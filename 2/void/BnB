@@ -780,31 +780,31 @@ cell radialshieldcell24outside 2488 outside assembly
 cell radialshieldcell25outside 2588 outside assembly
 
 % --- control rod assembly
-cell controlrodcell1 0199 CR_assembly -assembly
-cell controlrodcell2 0299 CR_assembly -assembly
-cell controlrodcell3 0399 CR_assembly -assembly
-cell controlrodcell4 0499 CR_assembly -assembly
-cell controlrodcell5 0599 CR_assembly -assembly
-cell controlrodcell6 0699 CR_assembly -assembly
-cell controlrodcell7 0799 CR_assembly -assembly
-cell controlrodcell8 0899 CR_assembly -assembly
-cell controlrodcell9 0999 CR_assembly -assembly
-cell controlrodcell10 1099 CR_assembly -assembly
-cell controlrodcell11 1199 CR_assembly -assembly
-cell controlrodcell12 1299 CR_assembly -assembly
-cell controlrodcell13 1399 CR_assembly -assembly
-cell controlrodcell14 1499 CR_assembly -assembly
-cell controlrodcell15 1599 CR_assembly -assembly
-cell controlrodcell16 1699 CR_assembly -assembly
-cell controlrodcell17 1799 CR_assembly -assembly
-cell controlrodcell18 1899 CR_assembly -assembly
-cell controlrodcell19 1999 CR_assembly -assembly
-cell controlrodcell20 2099 CR_assembly -assembly
-cell controlrodcell21 2199 CR_assembly -assembly
-cell controlrodcell22 2299 CR_assembly -assembly
-cell controlrodcell23 2399 CR_assembly -assembly
-cell controlrodcell24 2499 CR_assembly -assembly
-cell controlrodcell25 2599 CR_assembly -assembly
+cell controlrodcell1 0199 void -assembly
+cell controlrodcell2 0299 void -assembly
+cell controlrodcell3 0399 void -assembly
+cell controlrodcell4 0499 void -assembly
+cell controlrodcell5 0599 void -assembly
+cell controlrodcell6 0699 void -assembly
+cell controlrodcell7 0799 void -assembly
+cell controlrodcell8 0899 void -assembly
+cell controlrodcell9 0999 void -assembly
+cell controlrodcell10 1099 void -assembly
+cell controlrodcell11 1199 void -assembly
+cell controlrodcell12 1299 void -assembly
+cell controlrodcell13 1399 void -assembly
+cell controlrodcell14 1499 void -assembly
+cell controlrodcell15 1599 void -assembly
+cell controlrodcell16 1699 void -assembly
+cell controlrodcell17 1799 void -assembly
+cell controlrodcell18 1899 void -assembly
+cell controlrodcell19 1999 void -assembly
+cell controlrodcell20 2099 void -assembly
+cell controlrodcell21 2199 void -assembly
+cell controlrodcell22 2299 void -assembly
+cell controlrodcell23 2399 void -assembly
+cell controlrodcell24 2499 void -assembly
+cell controlrodcell25 2599 void -assembly
 
 cell controlrodcell1outside 0199 outside assembly
 cell controlrodcell2outside 0299 outside assembly
@@ -3194,7 +3194,7 @@ det AssemblyGammaPowerAxial24 p dl 24 dr -12 void
 % ################################################################################### //// ######## //// #######
 
 % --- turn on coupled neutron/photon transport
-%set ngamma 2
+set ngamma 2
 
 % --- include material definitions in separate file
 include "BnB_nonfuel"    
