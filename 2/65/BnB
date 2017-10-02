@@ -3225,8 +3225,8 @@ set nbuf 8
 %set rfw yes binaryRestart
 
 % --- set depletion settings
-dep daystep 305.516 305.516 305.516  
-set inventory all
+%dep daystep 305.516 305.516 305.516  
+%set inventory all
 
 % --- criticality settings
 set pop 600000 520 20 1 40 40
